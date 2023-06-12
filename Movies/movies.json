@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Batman",
+    "year": "2023",
+    "rating": 3.8,
+    "poster_url": "3. Create Main file"
+  },
+  {
+    "title": "Batman",
+    "year": "2023",
+    "rating": 5.8,
+    "poster_url": "www.test.com"
+  },
+  {
+    "title": "teste5000",
+    "year": "2088",
+    "rating": 10.0,
+    "poster_url": "www.wow.com"
+  }
+]

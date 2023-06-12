@@ -1,7 +1,9 @@
 import movie_storage
+from movie_storage import MovieManager
 
 
 def main():
+    movie_manager = MovieManager()
     while True:
         print("\033[31m Menu:\033")
         print("\033[33m1 0. Exit")
@@ -19,23 +21,23 @@ def main():
             print("Bye!")
             break
         elif choice == '1':
-            movie_storage.list_movies()
+            movie_manager.list_movies()
         elif choice == '2':
-            movie_storage.add_movie()
+            movie_manager.add_movie()
         elif choice == '3':
-            movie_storage.delete_movie()
+            movie_manager.delete_movie()
         elif choice == '4':
-            movie_storage.update_movie()
+            movie_manager.update_movie()
         elif choice == '5':
-            movie_storage.stats()
+            movie_manager.stats()
         elif choice == '6':
-            movie_storage.random_movie()
+            movie_manager.random_movie()
         elif choice == '7':
-            movie_storage.search_movie()
+            movie_manager.search_movie()
         elif choice == '8':
-            movie_storage.sort_movies_by_rating()
+            movie_manager.sort_movies_by_rating()
         elif choice == '9':
-            movie_storage.create_website()
+            movie_manager.create_website()
         else:
             print("\033[31m Invalid choice.\033")
 
